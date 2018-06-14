@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>匠心官网 - 关于匠心</title>
+        <link rel="stylesheet" href="css/common.css">
+        <style>
+        p{
+            font-size: 14px;
+            color: #333;
+            line-height: 1.5;
+            text-align: justify;
+        }
+            .timeline{
+                width: 500px;
+                margin-left: 40px;
+                margin-top: 70px;
+            }
+            .time-point{
+                margin-bottom: 50px;
+            }
+            .time-point h2{
+                font-size: 24px;
+                font-weight: 500;
+                margin: 0;
+            }
+            .time-point p{
+                line-height: 1.5;
+                margin: 0 0 0 60px;
+            }
+            .ico-point{
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 27px;
+                width: 34px;
+                height: 42px;
+                background: url(imgs/ico-point.png);
+                background-size: 34px 42px;
+            }
+            .circle span{
+                display: inline-block;
+                width: 100px;
+                line-height: 100px;
+                text-align: center;
+                border-radius: 50%;
+                background: #037cff;
+
+                font-size: 30px;
+                color: #fff;
+
+                opacity: 0.5;
+                margin: 100px 20px 0 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="welcome" id="welcome">
+            <video src="video.mp4" autoplay poster="" id="video">
+                <source src="video.mp4" type="video/mp4">
+            </video>
+            <a class="welcome-btn" id="toHome">进入主页</a>
+        </div>
+        <div class="top">
+            <div class="top-bar">
+                <div class="container">
+                </div>
+            </div>
+            <div class="nav">
+                <div class="container fix">
+                    <div class="brand fl"><img src="imgs/brand.png" title="匠心"></div>
+                    <div class="menu fr">
+                        <ul class="fix">
+                            <li><a class="active" href="index.html">关于匠心</a></li>
+                            <li><a href="production.html">作品案例</a></li>
+                            <li><a href="team.html">团队介绍</a></li>
+                            <li><a href="development.html">发展规划</a></li>
+                            <li><a href="contactus.html">联系我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="container">
+                <div class="text-section" style="height: 400px;">
+                    <h1>关于匠心</h1>
+                    <p class="subtitle">匠心动画，愿陪每部作品死磕到底</p>
+                    <p>武汉匠心数字科技有限公司筹建于2016年11月，公司创立于武汉市洪山区文治街17号ovu创客星注册资金200万，核心主创成员8人，团队规模40余人，主创均来自于北上广深一线影视公司，且都有八九年一线影视制作经验，分别有导演、美术指导、动作指导、动画总监等职务。匠心动画是一家三维影视制作公司，单动画模块，四十多位角色动画师，主攻电影和高端网剧，宣传片预告片等动画模块。
+未来我们的发展定位是高端影视动画制作，原创电影。</p>
+                </div>
+            </div>
+            <div class="across" style="background: url(imgs/page-1-bg.jpg) center no-repeat;"></div>
+            <div class="across">
+                <div class="container fix">
+                    <img style="margin-top: 60px;margin-left: 80px;" class="fl" src="imgs/page-1-logo.png">
+                    <div class="timeline fr">
+                        <div class="time-point">
+                            <h2><i class="ico-point"></i>广州</h2>
+                            <p>2010年我们在广州成立了广州蜕变影视广告有限公司，团队规模30余人，主要承接影视动画，企业宣传片的制作等业务。</p>
+                        </div>
+                        <div class="time-point">
+                            <h2><i class="ico-point"></i>北京</h2>
+                            <p>2013年团队北上，在北京成立了禾颖影视工作室，参与并圆满完成了一系列优秀知名电影的动画制作，例如《大闹天宫》，《大圣归来》，《寻龙诀》等。</p>
+                        </div>
+                        <div class="time-point">
+                            <h2><i class="ico-point"></i>武汉</h2>
+                            <p>2016年我们在武汉成立了武汉匠心动画，将数年的技术积累和专业知识带回家乡，力争推动武汉本地影视动画行业的发展。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="across" style="background: #f7f7f7;">
+                <div class="container fix">
+                    <div class="fl" style="width: 50%;margin-top: 76px;">
+                        <p style="width:80%;">“小而精”是我们的发展理念，匠心独运，良心创作作为核心思想，它联合了传统朴实的劳动品质，以匠人姿态来搞艺术创作，追求每部作品的高度，踏实诚恳的做好每一次创新，我们相信高品质的项目一直都在找我们。</p>
+                        <div class="circle">
+                            <span>牛逼</span>
+                            <span>靠谱</span>
+                            <span>专注</span>
+                            <span>坚持</span>
+                        </div>
+                    </div>
+                    <img style="margin-top: 60px;" src="imgs/page-1-imac.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="copyright">
+                JIANGXIN © 2018  All rights reserved.
+            </p>
+        </div>
+    <script>
+        var myVid = document.getElementById("video");
+        myVid.addEventListener("ended", function () {
+            var welcome = document.getElementById("welcome");
+            welcome.style.display = 'none';
+        });
+        var toHome = document.getElementById("toHome");
+        toHome.addEventListener("click", function () {
+            var welcome = document.getElementById("welcome");
+            welcome.style.display = 'none';
+        });
+    </script>
+    </body>
+</html>
