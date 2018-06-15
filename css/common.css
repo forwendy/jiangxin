@@ -47,12 +47,16 @@ body{
     background: rgba(0,0,0,.5);
 }
 
+.brand{
+    padding-left: 30px;
+}
 .brand img{
     margin: 20px 0;
 }
 
 .menu{
     margin: 30px 0 32px;
+    padding-right: 30px;
 }
 .menu ul{
     padding: 0;
