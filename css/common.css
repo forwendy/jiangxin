@@ -41,12 +41,12 @@ body{
 }
 
 .top{
-    height: 172px;
+    height: 128px;
     background: url(../imgs/nav-bg.png) top center no-repeat;
 }
 
 .top-bar{
-    height: 37px;
+    height: 27px;
     background: rgba(0,0,0,.5);
 }
 
@@ -54,11 +54,11 @@ body{
     padding-left: 30px;
 }
 .brand img{
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .menu{
-    margin: 20px 0;
+    margin: 15px 0;
     padding-right: 30px;
 }
 .menu ul{
