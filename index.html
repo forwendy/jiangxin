@@ -5,12 +5,12 @@
         <title>匠心官网 - 关于匠心</title>
         <link rel="stylesheet" href="css/common.css">
         <style>
-        p{
-            font-size: 14px;
-            color: #333;
-            line-height: 1.5;
-            text-align: justify;
-        }
+            p{
+                font-size: 14px;
+                color: #333;
+                line-height: 1.5;
+                text-align: justify;
+            }
             .timeline{
                 width: 500px;
                 margin-left: 40px;
@@ -58,7 +58,6 @@
             <video src="video.mp4" autoplay poster="" id="video">
                 <source src="video.mp4" type="video/mp4">
             </video>
-            <a class="welcome-btn" id="toHome">进入主页</a>
         </div>
         <div class="top">
             <div class="top-bar">
@@ -132,13 +131,11 @@
         </div>
     <script>
         var myVid = document.getElementById("video");
+        var welcome = document.getElementById("welcome");
         myVid.addEventListener("ended", function () {
-            var welcome = document.getElementById("welcome");
             welcome.style.display = 'none';
         });
-        var toHome = document.getElementById("toHome");
-        toHome.addEventListener("click", function () {
-            var welcome = document.getElementById("welcome");
+        myVid.addEventListener("click", function () {
             welcome.style.display = 'none';
         });
     </script>
