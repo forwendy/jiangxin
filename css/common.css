@@ -18,6 +18,9 @@
 body{
     margin: 0;
     font: 12px "PingFang-SC-Regular", "Microsoft YaHei", sans-serif;
+    background: url(../imgs/bg.png) center;
+    background-size: cover;
+    background-attachment:fixed;
 }
 
 .welcome{
@@ -38,7 +41,7 @@ body{
 }
 
 .top{
-    height: 199px;
+    height: 172px;
     background: url(../imgs/nav-bg.png) top center no-repeat;
 }
 
@@ -55,7 +58,7 @@ body{
 }
 
 .menu{
-    margin: 30px 0 32px;
+    margin: 20px 0;
     padding-right: 30px;
 }
 .menu ul{
